@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Replace with your actual EmailJS service and template IDs
         const serviceID = 'service_j9fp31r';
-        const templateID = 'template_b3cku8h_ID';
+        const templateID = 'template_b3cku8h';
 
         // Send the form data to EmailJS
         emailjs.sendForm(serviceID, templateID, contactForm)
