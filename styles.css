@@ -43,8 +43,8 @@ body {
 /* Hero Section */
 .hero {
     display: flex;
-    justify-content: center; /* Centers the content horizontally */
-    align-items: center; /* Aligns content vertically */
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     text-align: center;
     padding: 0 2rem;
@@ -65,11 +65,12 @@ body {
 }
 
 .profile-image {
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid #fff;
+    width: 100px; /* Smaller size */
+    height: 100px; /* Keep it a perfect circle */
+    object-fit: cover; /* Ensure the image covers the circle without distortion */
+    border-radius: 50%; /* Make the image round */
+    border: 5px solid #fff; /* White frame around the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a slight shadow around the profile image */
 }
 
 .hero-text {
