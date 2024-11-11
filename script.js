@@ -13,8 +13,8 @@ document.addEventListener("DOMContentLoaded", () => {
         contactForm.appendChild(spinner);
 
         // Replace with your actual EmailJS service and template IDs
-        const serviceID = 'service_j9fp31r';
-        const templateID = 'template_b3cku8h_ID';
+        const serviceID = 'j9fp31r';
+        const templateID = 'b3cku8h_ID';
 
         // Send the form data to EmailJS
         emailjs.sendForm(serviceID, templateID, contactForm)
